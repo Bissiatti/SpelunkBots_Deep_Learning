@@ -1,24 +1,85 @@
-﻿Build started 10-06-2015 22:58:06.
-     1>Project "D:\David\SpelunkBots-master\DLL Solution\Bot\SpelunkBot\SpelunkBot.vcxproj" on node 2 (Build target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (SpelunkBot.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-     1>ClCompile:
-         D:\Others\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SPELUNKBOT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Bot.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Movement.cpp
-         Movement.cpp
-       Link:
-         D:\Others\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\Source\spelunky_1_1\Bot.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\..\Source\spelunky_1_1\Bot.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\Source\spelunky_1_1\Bot.lib" /MACHINE:X86 /SAFESEH /DLL Release\Cell.obj
-         Release\dllmain.obj
-         Release\Bot.obj
-         Release\helper.obj
-         Release\Map.obj
-         Release\Movement.obj
-         Release\stdafx.obj
-            Creating library ..\..\..\Source\spelunky_1_1\Bot.lib and object ..\..\..\Source\spelunky_1_1\Bot.exp
-         Generating code
-         Finished generating code
-         SpelunkBot.vcxproj -> D:\David\SpelunkBots-master\DLL Solution\Bot\SpelunkBot\..\..\..\Source\spelunky_1_1\Bot.dll
-     1>Done Building Project "D:\David\SpelunkBots-master\DLL Solution\Bot\SpelunkBot\SpelunkBot.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:02.28
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(503,5): warning MSB8004: o diretório Output não termina com uma barra à direita. Essa instância de compilação adicionará a barra conforme necessário para permitir a avaliação adequada do Diretório Output.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: O diretório intermediário (Release\) contém arquivos compartilhados de outro projeto (SpelunkBot.vcxproj). Isso pode levar a um comportamento incorreto de limpeza e recompilação.
+  Movement.cpp
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(116,15): error C2513: 'double': nenhuma variável declarada antes de '='
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(116,23): error C2143: erro de sintaxe: ';' ausente antes de ','
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(116,25): error C2059: erro de sintaxe: '='
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(129,2): error C3861: 'checkKeys': identificador não encontrado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(206,6): error C3861: 'isCollisionMoveableSolidLeft': identificador não encontrado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(209,6): error C3861: 'isCollisionMoveableSolidRight': identificador não encontrado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(212,6): error C3861: 'isCollisionLeft': identificador não encontrado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(215,6): error C3861: 'isCollisionRight': identificador não encontrado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(218,6): error C3861: 'isCollisionTop': identificador não encontrado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(221,6): error C3861: 'isCollisionBottom': identificador não encontrado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(224,6): error C3861: 'isCollisionLadder': identificador não encontrado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(227,6): error C3861: 'isCollisionPlatformBottom': identificador não encontrado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(230,6): error C3861: 'isCollisionPlatform': identificador não encontrado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(233,6): error C3861: 'isCollisionWaterTop': identificador não encontrado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(236,32): error C2065: 'oIce': identificador não declarado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(236,6): error C3861: 'collision_point': identificador não encontrado
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(241,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(241,35): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(241,35): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(298,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(298,30): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(298,30): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(416,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(416,27): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(416,27): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(537,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(537,26): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(537,26): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(664,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(664,29): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(664,29): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(722,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(722,30): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(722,30): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(749,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(749,30): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(749,30): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(844,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(844,29): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(844,29): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(923,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(923,30): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(923,30): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(939,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(939,31): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(939,31): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(972,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(972,34): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(972,34): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1012,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1012,40): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1012,40): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1155,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1155,54): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1155,54): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1159,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1159,35): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1159,35): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1163,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1163,35): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1163,35): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1167,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1167,36): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1167,36): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1171,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1171,37): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1171,37): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1175,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1175,46): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1175,46): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1179,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1179,49): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1179,49): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1183,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1183,76): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1183,76): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1187,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1187,66): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1187,66): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1191,1): error C2059: erro de sintaxe: 'public'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1191,50): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\emanu\OneDrive\Documentos\fgv\ML\trabalhoFinal\SpelunkBots_Deep_Learning\DLL Solution\Bot\SpelunkBot\Movement.cpp(1191,50): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)

@@ -2,20 +2,20 @@
 |  SPELUNKY EXTENDED STATS  |
 +---------------------------+
 
-CRATES OPENED:      11
-CHESTS OPENED:      4
+CRATES OPENED:      32
+CHESTS OPENED:      14
 
-IDOLS GRABBED:      63
-IDOLS CONVERTED:    8
+IDOLS GRABBED:      67
+IDOLS CONVERTED:    10
 
-DAMSELS GRABBED:    627
+DAMSELS GRABBED:    632
 KISSES BOUGHT:      0
-DAMSELS BOUGHT:     1
-DAMSELS SAVED:      17
-DAMSELS KILLED:     137
+DAMSELS BOUGHT:     2
+DAMSELS SAVED:      18
+DAMSELS KILLED:     138
 
-ITEMS BOUGHT:       0
-ITEMS STOLEN:       3
+ITEMS BOUGHT:       3
+ITEMS STOLEN:       11
 
 DICE GAMES PLAYED:  0
 DICE GAMES WON:     0
@@ -23,13 +23,13 @@ DICE GAMES LOST:    0
 
 LEVEL        DEATHS
 ------------+------------
- 1          | 340
- 2          | 17
- 3          | 6
- 4          | 8
- 5          | 7
+ 1          | 398
+ 2          | 24
+ 3          | 10
+ 4          | 9
+ 5          | 11
  6          | 4
- 7          | 1
+ 7          | 2
  8          | 1
  9          | 9
  10         | 2
@@ -40,21 +40,21 @@ LEVEL        DEATHS
  15         | 1
  16         | 4
 ------------+------------
- TOTAL      | 408
+ TOTAL      | 483
 
 ENEMY        DEATHS
 ------------+------------
  ???        | 0
- SNAKE      | 5
- SPIDER     | 6
- ???        | 0
- CAVEMAN    | 1
+ SNAKE      | 6
+ SPIDER     | 7
+ G. SPIDER  | 1
+ CAVEMAN    | 2
  SKELETON   | 1
  ???        | 0
  ???        | 0
- FROG       | 3
+ FROG       | 4
  FIRE FROG  | 1
- MANTRAP    | 2
+ MANTRAP    | 3
  PIRANHA    | 1
  ???        | 0
  ???        | 0
@@ -63,7 +63,7 @@ ENEMY        DEATHS
  UFO        | 1
  ???        | 0
  ???        | 0
- SHOPKEEPER | 2
+ SHOPKEEPER | 5
  ???        | 0
  ???        | 0
  OLMEC      | 3
@@ -73,11 +73,11 @@ MISC         DEATHS
 ------------+------------
  ???        | 0
  ???        | 0
- CRUSHED    | 21
- LONG FALL  | 33
- SPIKES     | 30
+ CRUSHED    | 22
+ LONG FALL  | 35
+ SPIKES     | 32
  ???        | 0
- ARROW TRAP | 18
+ ARROW TRAP | 19
  SPEAR TRAP | 2
  SMASH TRAP | 3
  ???        | 0
@@ -86,19 +86,19 @@ MISC         DEATHS
 
 ENEMY        KILLS
 ------------+------------
- BAT        | 81
- SNAKE      | 191
- SPIDER     | 56
- G. SPIDER  | 2
+ BAT        | 117
+ SNAKE      | 269
+ SPIDER     | 76
+ G. SPIDER  | 7
  CAVEMAN    | 4
- SKELETON   | 14
- ZOMBIE     | 7
+ SKELETON   | 16
+ ZOMBIE     | 8
  ???        | 0
- FROG       | 15
- MONKEY     | 3
- FIRE FROG  | 6
+ FROG       | 29
+ MONKEY     | 4
+ FIRE FROG  | 8
  ???        | 0
- PIRANHA    | 1
+ PIRANHA    | 3
  ???        | 0
  ???        | 0
  YETI KING  | 25
@@ -106,8 +106,8 @@ ENEMY        KILLS
  ???        | 0
  ???        | 0
  ???        | 0
- SHOPKEEPER | 1
+ SHOPKEEPER | 3
  ???        | 0
  OLMEC      | 1
 ------------+------------
- TOTAL      | 407
+ TOTAL      | 570
